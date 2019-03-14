@@ -7,6 +7,12 @@
 	 src:url("../fonts/Roboto-Bold.ttf");
 }
 
+body{
+	
+}
+.container-fluid{
+	background-color: #333333;
+}
 .container{
 	//border: solid 2px red;
 	//padding-bottom: 100px;
@@ -127,25 +133,22 @@ form{
 }
 .footer-icons{
 	
-	text-align-last: justify;
+	display: flex;
+	justify-content:space-between;
 	
 	
 }
 
 .footer-icons a{
 	
-	text-align-last: justify;
-	
+	display: block;
+	justify-content:space-between;
 	text-decoration: none;
-	color: red;
+	color:rgba(0,0,0,0.00);
 	
 	
 }
 
-a{
-	text-decoration: none;
-	
-}
 .sots{
 	
 	margin-top: 10px;
@@ -266,6 +269,7 @@ padding-right: 0;
 	padding-top: 100px;
 	padding-bottom: 100px;
 	padding-right: 0;
+	background-color: #ffffff;
 	//border: solid;
 }
 
@@ -340,6 +344,7 @@ padding-right: 0;
 }
 .spam{
 	padding-top: 110px;
+	background-color: #ffffff;
 }
 .spam-1{
 	text-align: center;
