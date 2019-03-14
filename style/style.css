@@ -407,4 +407,7 @@ padding-right: 0;
 .nav-link:hover{
 	background-color: #d8ab8b;
 }
-
+textarea{
+	//width: 100%;
+	
+}
